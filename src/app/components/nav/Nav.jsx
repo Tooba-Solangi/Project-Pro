@@ -21,7 +21,7 @@ const Nav = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
      
-          <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+          <div class="collapse navbar-collapse  " >
             <ul class="navbar-nav px-5 gap-3 fnt">
               <li class=" ">
                 <a href="#" class="nav-link text-success ">
@@ -39,7 +39,7 @@ const Nav = () => {
                   ABOUT US
                 </a>
               </li>
-              <a class="navbar-brand ps-5 mx-5" href="#">
+              <a class="navbar-brand " href="#">
                 <Image src={panda} alt="logo" />
               </a>
               <li class="nav-item">
